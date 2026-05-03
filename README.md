@@ -24,7 +24,11 @@ Here are some ideas to get you started:
   <a href="https://t.me/@vikirikivi"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/></a>
 </p>
 ---
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=800&color=2D9596&center=true&width=600&lines=Data+Analyst+%7C+Python+%7C+SQL;▁▃▅▇█▇▅▃▁+Turning+data+into+insights;retention+%E2%86%91+conversion+%E2%86%91+decisions+%E2%86%93;█▓▒░+A%2FB+test+%E2%86%92+result+%E2%86%92+action;From+oil+%26+gas+engineer+to+data+analyst" alt="Typing SVG" />
+</p>
 
+---
 ## 👩‍💻 Обо мне
 
 Специализируюсь на анализе эффективности процессов, выявлении узких мест и формировании решений на основе данных.
