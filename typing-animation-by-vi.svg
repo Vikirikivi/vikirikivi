@@ -1,52 +1,51 @@
 <svg width="600" height="82" viewBox="0 0 600 82" xmlns="http://www.w3.org/2000/svg">
-  <title>Typing animation</title>
+  <title>Typing animation by @vikirikivi</title>
   <style>
-    .bg { fill: none; }
-    .t { font-family: 'Fira Code', 'Courier New', monospace; font-size: 18px; fill: #2D9596; text-anchor: middle; dominant-baseline: middle; }
-    .cur { font-family: 'Fira Code', monospace; font-size: 18px; fill: #2D9596; dominant-baseline: middle; }
+    .line {
+      font-family: 'Fira Code', 'Courier New', monospace;
+      font-size: 17px;
+      fill: #2D9596;
+      text-anchor: middle;
+      dominant-baseline: middle;
+      opacity: 0;
+    }
+    .cur {
+      font-family: 'Fira Code', monospace;
+      font-size: 17px;
+      fill: #2D9596;
+      dominant-baseline: middle;
+    }
+
+    /* total cycle: 6 lines × 5s = 30s */
     @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
-    .blink { animation: blink 1s step-end infinite; }
+    .cur { animation: blink 1s step-end infinite; }
+
+    @keyframes show {
+      0%      { opacity: 0; }
+      3%      { opacity: 1; }
+      80%     { opacity: 1; }
+      96%     { opacity: 0; }
+      100%    { opacity: 0; }
+    }
+
+    .l1 { animation: show 5s 0s infinite; }
+    .l2 { animation: show 5s 5s infinite; }
+    .l3 { animation: show 5s 10s infinite; }
+    .l4 { animation: show 5s 15s infinite; }
+    .l5 { animation: show 5s 20s infinite; }
+    .l6 { animation: show 5s 25s infinite; }
   </style>
-  <rect class="bg" width="600" height="60"/>
-  <text id="txt" class="t" x="300" y="30"></text>
-  <text id="cur" class="cur blink" x="300" y="30">|</text>
-  <script type="text/javascript"><![CDATA[
-    var lines = [
-      "Turning data into decisions \uD83D\uDCCA",
-      "\u25811\u25812\u25814\u25816\u25816\u25814\u25812\u25811  crunching numbers daily",
-      "A |\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2591\u2591| 62% \u2190 found the winner \u2713",
-      "B |\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 78% \u2713",
-      "retention \uD83D\uDCC9 0.35% \u2192 found why \uD83D\uDD0D",
-      "\u2588\u2588\u2588\u2588\u2588 visitors \u2192 \u2588\u2588 retained \u2192 \uD83D\uDCA1 insights"
-    ];
-    var el = document.getElementById('txt');
-    var cur = document.getElementById('cur');
-    var li = 0, ci = 0, del = false;
-    function upd() {
-      var bb = el.getBBox();
-      cur.setAttribute('x', bb.x + bb.width + 3);
-    }
-    function run() {
-      var line = lines[li];
-      if (!del) {
-        if (ci <= line.length) {
-          el.textContent = line.slice(0, ci++);
-          upd();
-          setTimeout(run, ci === line.length ? 2000 : 60);
-        } else { del = true; setTimeout(run, 80); }
-      } else {
-        if (ci > 0) {
-          el.textContent = line.slice(0, --ci);
-          upd();
-          setTimeout(run, 35);
-        } else {
-          del = false;
-          li = (li + 1) % lines.length;
-          setTimeout(run, 400);
-        }
-      }
-    }
-    run();
-  ]]></script>
+
+  <rect width="600" height="70" fill="none"/>
+
+  <text class="line l1" x="300" y="35">Turning data into decisions 📊</text>
+  <text class="line l2" x="300" y="35">▁▂▄▆█▆▄▂▁  crunching numbers daily</text>
+  <text class="line l3" x="300" y="35">A |████████░░| 62% ← found the winner ✓</text>
+  <text class="line l4" x="300" y="35">B |██████████| 78% ✓</text>
+  <text class="line l5" x="300" y="35">retention 📉 0.35% → found why 🔍</text>
+  <text class="line l6" x="300" y="35">█████ visitors → ██ retained → 💡 insights</text>
+
+  <text class="cur" x="490" y="35">|</text>
+
   <text x="300" y="76" font-family="'Fira Code', monospace" font-size="11px" fill="#2D9596" text-anchor="middle" opacity="0.6">By @vikirikivi</text>
 </svg>
