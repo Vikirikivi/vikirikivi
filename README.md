@@ -24,7 +24,7 @@ Here are some ideas to get you started:
   <a href="https://t.me/@vikirikivi"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/></a>
 </p>
 ---
-![header](https://capsule-render.vercel.app/api?type=waving&color=2D9596&height=120&section=header&text=Turning%20data%20into%20decisions&fontSize=28&fontColor=ffffff&animation=fadeIn)
+![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
 
 ---
 ## 👩‍💻 Обо мне
