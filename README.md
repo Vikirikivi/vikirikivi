@@ -25,7 +25,7 @@ Here are some ideas to get you started:
 </p>
 ---
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=800&color=2D9596&center=true&width=600&lines=Data+Analyst+%7C+Python+%7C+SQL;▁▃▅▇█▇▅▃▁+Turning+data+into+insights;retention+%E2%86%91+conversion+%E2%86%91+decisions+%E2%86%93;█▓▒░+A%2FB+test+%E2%86%92+result+%E2%86%92+action;From+oil+%26+gas+engineer+to+data+analyst" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=2D9596&center=true&width=600&height=60&lines=Turning+data+into+decisions+📊;▁▂▄▆█▆▄▂▁+crunching+numbers+daily;A+|████████░░|+62%25+←+found+the+winner+✓;B+|██████████|+78%25+✓;retention+📉+0.35%25+→+found+why+🔍;█████+visitors+→+██+retained+→+💡+insights" alt="Typing SVG" />
 </p>
 
 ---
