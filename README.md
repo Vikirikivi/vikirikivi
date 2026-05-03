@@ -24,7 +24,7 @@ Here are some ideas to get you started:
   <a href="https://t.me/@vikirikivi"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/></a>
 </p>
 ---
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=2D9596&center=true&width=600&height=60&lines=Turning+data+into+decisions+📊;▁▂▄▆█▆▄▂▁+crunching+numbers+daily;A+|████████░░|+62%25+←+found+the+winner+✓;B+|██████████|+78%25+✓;retention+📉+0.35%25+→+found+why+🔍;█████+visitors+→+██+retained+→+💡+insights)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=2D9596&center=true&width=600&height=60&lines=Turning+data+into+decisions+📊;▁▂▄▆█▆▄▂▁+crunching+numbers+daily;A+%7C████████░░%7C+62%25+←+found+the+winner+✓;B+%7C██████████%7C+78%25+✓;retention+📉+0.35%25+→+found+why+🔍;█████+visitors+→+██+retained+→+💡+insights)
 
 ---
 ## 👩‍💻 Обо мне
